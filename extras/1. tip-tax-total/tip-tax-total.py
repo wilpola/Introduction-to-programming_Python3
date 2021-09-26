@@ -1,5 +1,5 @@
 """
-@autor Ville Wilpola
+@author Ville Wilpola
 # Date: 9/26/2021 Sunday
 # Lisence: MIT Lisence
 """
