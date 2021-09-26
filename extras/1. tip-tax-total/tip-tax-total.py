@@ -12,7 +12,7 @@ def tax(initial):
     return round(float(initial) * 0.07, 2)
 
 def total(initial, tip, tax):
-    return round(float(initial) + tip + tax)
+    return round(float(initial) + tip + tax, 2)
 
 
 def main():
