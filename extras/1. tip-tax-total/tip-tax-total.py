@@ -4,7 +4,7 @@
 # Lisence: MIT Lisence
 """
 
-def tip(initial):
+def tip(initialm):
     _tipAmount = round(float(initial) * 0.15, 2)
     return _tipAmount
 
@@ -26,5 +26,6 @@ def main():
     print("7% sales tax is "+ str(_tax)+ "€")
     print("Your total today is: ", str(_total) + "€")
 
+    print(" ")
 main()
 
