@@ -4,7 +4,7 @@
 # Lisence: MIT Lisence
 """
 
-def tip(initialm):
+def tip(initial):
     _tipAmount = round(float(initial) * 0.15, 2)
     return _tipAmount
 
@@ -28,4 +28,3 @@ def main():
 
     print(" ")
 main()
-
