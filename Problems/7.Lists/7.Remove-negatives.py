@@ -6,17 +6,17 @@ import random
 
 def remove_negatives(l):
     print(" ")
-    new_l = []
-    for i in range(len(l)):
-        if l[i] >= 0:
-            print(i, ':', l[i])
-            new_l.append(l[i])
-    print(new_l)
-    l = new_l
-    print("new list:", l)
-    l = [i for i in new_l]
-    print("L", l)
-    return l
+    # new_l = []
+    # for i in range(len(l)):
+    #     if l[i] >= 0:
+    #         print(i, ':', l[i])
+    #         new_l.append(l[i])
+    # print(new_l)
+    # l = new_l
+    # print("new list:", l)
+    # l = [i for i in new_l]
+    # print("L", l)
+    # return l[:]
     
     # new_l = l[:]
     # for i in l:
