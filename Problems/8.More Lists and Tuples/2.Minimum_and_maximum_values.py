@@ -1,3 +1,6 @@
+# @author: Ville Wilpola
+# @date: 11-23-2021
+# Score: 10/10
 import random
 
 def minimum_maximum(integer_list):
