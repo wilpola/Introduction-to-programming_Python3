@@ -20,6 +20,7 @@ def minimum_maximum(integer_list):
 l = []
 for i in range(random.randint(15,25)):
   l.append(random.randint(-150,150))
-           
+
+print(" ") 
 print ("List:", l)
 print ("Minimum and maximum:",minimum_maximum(l))
