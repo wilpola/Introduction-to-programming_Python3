@@ -1,6 +1,14 @@
 import random
 
 def minimum_maximum(integer_list):
+    _min = 0
+    _max = 0
+
+    for i in integer_list:
+        if i > _max:
+            _max = i
+        if i < _min:
+            _min = i
 
     tupl = (_min, _max)
     return tupl
